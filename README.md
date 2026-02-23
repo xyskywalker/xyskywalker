@@ -16,9 +16,13 @@ Can AI predict human social behavior?
 
 How content spreads, how products get adopted, how policies trigger reactions — these seemingly unpredictable emergent phenomena follow the laws of Complex Adaptive Systems. Like a stone cast into water, the ripples spread in traceable ways.
 
-**Ripple（涟漪）** 是基于 CAS 理论构建的 Agent-Native 通用人类社会行为预测引擎。三层智能体架构（全视者 / 星 / 海），零硬编码规则，所有决策由大模型实时推理。仅需 ~50–150 次 LLM 调用即可完成一次完整模拟——比同类方案低三个数量级。引擎完全领域无关：社交传播、市场预测、舆情推演、组织变革……切换场景只需一份自然语言描述，不改一行代码。纯 Python，无框架依赖。
+**Ripple（涟漪）** 是基于 CAS 理论构建的 Agent-Native 通用人类社会行为预测引擎。四体智能体架构（全视者 / 星 / 海 / 合议庭），零硬编码规则，所有决策由大模型实时推理。仅需 ~100–500 次 LLM 调用即可完成一次完整模拟——比同类方案低三个数量级。合议庭机制通过多专家结构化辩论，系统性对抗 LLM 的乐观偏误，确保预测贴近现实。引擎完全领域无关，切换场景只需一份自然语言描述，不改一行代码。纯 Python，无框架依赖。
 
-**Ripple** is an Agent-Native universal human social behavior prediction engine built on CAS theory. Three-layer Agent architecture (Omniscient / Star / Sea), zero hardcoded rules — all decisions driven by LLM reasoning in real-time. ~50–150 LLM calls per full simulation, three orders of magnitude fewer than comparable approaches. Entirely domain-agnostic: social media, market forecasting, public opinion analysis, organizational change… switch scenarios with just a natural language description — no code changes needed. Pure Python, zero framework dependencies.
+**Ripple** is an Agent-Native universal human social behavior prediction engine built on CAS theory. Four-body Agent architecture (Omniscient / Star / Sea / Tribunal), zero hardcoded rules — all decisions driven by LLM reasoning in real-time. ~100–500 LLM calls per full simulation, three orders of magnitude fewer than comparable approaches. The Tribunal mechanism uses structured multi-expert debate to systematically counter LLM optimism bias, keeping predictions grounded in reality. Entirely domain-agnostic — switch scenarios with just a natural language description, no code changes needed. Pure Python, zero framework dependencies.
+
+**已实现两个领域 / Two domains implemented:**
+- 📱 社交媒体内容传播预测 / Social media content propagation prediction
+- 🎯 PMF（产品市场契合度）验证 / Product-Market Fit validation
 
 ---
 
